@@ -1,11 +1,11 @@
 <template>
-  <h2>{{traduciresteTexto}}</h2>
+  <h2>{{traducirTexto}}</h2>
 </template>
 
 <script>
 export default {
   name: "translateOut",
-  props: ["traduciresteTexto"]
+  props: ["traducirTexto"]
 };
 </script>
 

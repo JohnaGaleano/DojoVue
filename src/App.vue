@@ -4,7 +4,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <h1>Traductor</h1>
     <translateIn v-on:formSubmit="traducirTexto"></translateIn>
-    <translateOut v-text="traduciresteTexto"></translateOut>
+    <translateOut v-text="traducirTexto"></translateOut>
     <h2>{{this.traducirTexto}}</h2>
   </div>
 </template>
